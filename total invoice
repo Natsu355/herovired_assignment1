@@ -1,0 +1,10 @@
+book_a=int(input("Enter frequency of book_a purchased : "))
+book_b=int(input("Enter frequency of book_b purchased : "))
+book_c=int(input("Enter frequency of book_c purchased : "))
+price_book_a=499
+price_book_b=855
+price_book_c=645
+gst=0.12
+deliv_charges=250
+tot_price=250+0.12*(book_a*price_book_a+book_b*price_book_b+book_c*price_book_c)
+print("Total invoice amount : ",tot_price)
