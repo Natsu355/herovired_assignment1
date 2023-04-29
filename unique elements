@@ -1,0 +1,9 @@
+st=input("Input string : ")
+unique_list=[]
+for i in range(len(st)):
+    if st[i] not in unique_list:
+        unique_list.append(st[i])
+print("unique letters = ",end='')        
+for i in range(len(unique_list)):
+    print(unique_list[i],end=',')
+    
